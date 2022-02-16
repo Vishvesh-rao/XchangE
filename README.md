@@ -16,4 +16,8 @@ git clone this repo
 
 cd Deployment
 
+sudo docker build -t xchange .
+
+sudo docker run -d -p 1337:1337 --rm xchange
+
 
