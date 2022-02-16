@@ -13,9 +13,9 @@ This is a real world vulnerability or more to point an intentional flaw incrpora
 To play around with this challenge follow the below steps to get the application running: 
 
 ```bash
-git clone this repo
+git clone https://github.com/Vishvesh-rao/XchangE.git
 
-cd Deployment
+cd Xchange/Deployment
 
 sudo docker build -t xchange .
 
