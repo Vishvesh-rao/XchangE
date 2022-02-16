@@ -12,6 +12,7 @@ This is a real world vulnerability or more to point an intentional flaw incrpora
 
 To play around with this challenge follow the below steps to get the application running: 
 
+```bash
 git clone this repo
 
 cd Deployment
@@ -19,5 +20,5 @@ cd Deployment
 sudo docker build -t xchange .
 
 sudo docker run -d -p 1337:1337 --rm xchange
-
+```
 
